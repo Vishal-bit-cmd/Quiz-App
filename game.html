@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quiz Game</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="timer">Time Left:<span id="time">15</span></div>
+        <div id="modeDisplay"></div>
+        <h2 class="question"></h2>
+        <div class="options"></div>
+        <div class="result">
+        <h2>Game Over!</h2>    
+        Score:<span id="score">0</span></div>
+        <button id="next-btn" onclick="nextQuestion()" style="display: none;">Next</button>
+        <button class="restart-btn">Restart Game</button>        
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
