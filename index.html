@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quiz App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Author: Vishal Surya S K, Category: Quiz, Total Number of Questions = 15">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="home">
+    <h1 class="outlined">QuizZ</h1>
+    <button class="button start-btn" onclick="startGame()">Start</button>
+    <div class="dropdown">
+    <button id="modeButton" class="button dropdown-btn">Game Modes</button>
+    <div class="dropdown-content">
+        <a href="#easy" onclick="setMode('easy')">Easy</a>
+        <a href="#medium" onclick="setMode('medium')">Medium</a>
+        <a href="#hard" onclick="setMode('hard')">Hard</a>
+    </div>
+    </div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
